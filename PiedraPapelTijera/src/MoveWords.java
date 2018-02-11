@@ -65,8 +65,6 @@ public class MoveWords{
 	    first_i = getIndex(first);
 	    second_i = getIndex(second);
 
-	    System.out.println("" +(first_i +1) % validMoves.length + "==" +second_i);
-	    
 	    if (first_i == second_i) return EMPATE;
 	    if (first_i == 2 & second_i == 0) {
 	    	first_i = 0;
